@@ -1,0 +1,42 @@
+/*DOCUMENTOCSS*/
+
+body {
+	margin:0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+	background-color:#CCEFFF;
+}
+header{
+	background-color: #191970;
+	height: 100px;
+	padding-top: 25px;
+	color:  #CCEFFF;
+	text-align: center;
+}
+main{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: 0 0 0 10;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+
+	
+}
+.box{
+	width: 300px;
+	height: 450px;
+	background-color: #191970 ;
+	border-radius: 10px;
+	padding: 10px;
+	color:#CCEFFF;
+	text-align: center;
+	margin: 10px;
+
+}
+
+.box figure img {
+	margin-right: 30px;
+}
